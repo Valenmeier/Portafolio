@@ -19,15 +19,22 @@ mostrarInicio()
 //Secciones
 const sobreMi=() => {
     inyectar.innerHTML=""
+    window.scrollTo(0,0)
     inyectar.innerHTML= miInformacion
 }
 const proyectos=() => {
+    
     inyectar.innerHTML=""
+    window.scrollTo(0,0)
     inyectar.innerHTML= misProyectos
+    
 }
 const curriculum=() => {
+    debugger
     inyectar.innerHTML=""
+    window.scrollTo(0,0)
     inyectar.innerHTML= miCurriculum
+    
 }
 const contacto=() => {
     inyectar.innerHTML=""
