@@ -6,7 +6,7 @@ let inicio = `
         Yo soy <span>Valentin Meier</span><br>
     <span>{</span>Desarrollador Front-end<span>}</span></h1> 
         <h2><span>Sean bienvenidos a mi portafolio...</span></h2>
-        <p class="introduccion">Antes de comenzar, les a voy contar un poco sobre mí... vivo en Villa Carlos Paz-Argentina.<br> Soy una persona <span><b>social</b></span> a la que le encanta <span><b>aprender</b></span> cosas nuevas, disfruta <span><b>crear</b></span> y <span><b>enseñar</b></span> lo aprendido.<br> <span>¡Espero disfruten de mi sitio!.</span></p>
+        <p class="introduccion">Antes de comenzar, les voy a contar un poco sobre mí... vivo en Villa Carlos Paz-Argentina.<br> Soy una persona <span><b>social</b></span> a la que le encanta <span><b>aprender</b></span> cosas nuevas, disfruta <span><b>crear</b></span> y <span><b>enseñar</b></span> lo aprendido.<br> <span>¡Espero disfruten de mi sitio!.</span></p>
     </div>
         <div class="imagen-inicio">
             <div class=triangulo></div>
@@ -21,9 +21,9 @@ let miInformacion= `<div class="main-sobreMi">
     <h5>Bio</h5>
     <a href="#habilidades"><h6>habilidades</h6></a>
 </div>
-<p>Nací el 14/01/2003 en Córdoba-Argentina. Desde muy chiquito desarrollé el amor por la tecnología... en ese tiempo me gustaba editar videos y corromper mis jueguitos para sacar beneficios. Con el paso del tiempo fui creciendo y encontrando otras cosas que llamaban mi atención (la economía y los deportes)... pero nada me hacía sentir tan bien como cuando utilizaba la máquina y aprendía cosas nuevas, cosas únicas.<br> En estos últimos años, luego de haber finalizado la secundaria, entre en un lapso del no saber qué hacer, empece estudiando economía, pero luego me arrepentí, no me sentía tan cómodo. Por tanto, quise buscar trabajo, pensando que así podría ser más feliz, lo conseguí (ingrese a Arcos Dorados) y la verdad que tenía razón, al principio costo muchísimo, tenía muchos compañeros (200 aproximadamente) y me sentía bastante perdido. Pero eso me motivo a aprender, cometí muchos errores (algunos más de una vez), tenía compañeros que se burlaban por esos fallos, sinceramente me sentía mal cuando me trataban así, pero siempre tomaba su burla con una sonrisa y seguía, nunca le falte el respeto a ningún compañero. Gracias a mi esfuerzo y buen trato logré conseguir uno de mis mayores logros, el diploma de empleado del mes. </p>
+<p>Nací el 14/01/2003 en Córdoba-Argentina. Desde muy chiquito desarrollé el amor por la tecnología... en ese tiempo me gustaba editar videos y corromper mis jueguitos para sacar beneficios. Con el paso del tiempo fui creciendo y encontrando otras cosas que llamaban mi atención (la economía y los deportes)... pero nada me hacía sentir tan bien como cuando utilizaba la máquina y aprendía cosas nuevas, cosas únicas.<br> En estos últimos años, luego de haber finalizado la secundaria, entré en un lapso del no saber qué hacer, empecé estudiando economía, pero luego me arrepentí, no me sentía tan cómodo. Por tanto, quise buscar trabajo, pensando que así podría ser más feliz, lo conseguí (ingrese a Arcos Dorados) y la verdad que tenía razón, al principio costo muchísimo, tenía muchos compañeros (200 aproximadamente) y me sentía bastante perdido. Pero eso me motivo a aprender, cometí muchos errores (algunos más de una vez), tenía compañeros que se burlaban por esos fallos, sinceramente me sentía mal cuando me trataban así, pero siempre tomaba su burla con una sonrisa y seguía, nunca le falte el respeto a ningún compañero. Gracias a mi esfuerzo y buen trato logré conseguir uno de mis mayores logros, el diploma de empleado del mes. </p>
 <img src="./multimedia/diploma.jpeg" alt="diploma empleado del mes" title="mi diploma" class="diploma">
-<p>Luego de eso decidí renunciar para poder seguir aprendiendo más cosas (siempre recordando todos los momentos y experiencias que pase en aquel lugar), me anote a Coderhouse, donde actualmente estoy cursando y conseguí completar 2 cursos (desarrollo web y javascript) en esos cursos desarrolle las siguientes herramientas:</p><br>
+<p>Luego de eso decidí renunciar para poder seguir aprendiendo más cosas (siempre recordando todos los momentos y experiencias que pasé en aquel lugar), me anoté a Coderhouse, donde actualmente estoy cursando y conseguí completar 2 cursos (desarrollo web y javascript) en esos cursos desarrolle las siguientes herramientas:</p><br>
 
 <div class="herramientas" id="habilidades">
     <i class="fa-brands fa-html5"></i>
@@ -35,7 +35,7 @@ let miInformacion= `<div class="main-sobreMi">
     <i class="fa-brands fa-sass"></i>
 </div><br>
 
-<p class="parrafoFinal">Como anteriormente mencione, aún sigo cursando en Coderhouse (me faltan dos cursos para completar la carrera de full-stack), por tanto, mis habilidades van a seguir creciendo, tanto en el front-end, como en el back-end. <br>Sin nada más que decir, muchas gracias por haberme leído, espero sigas disfrutando mi portafolio.</p>
+<p class="parrafoFinal">Como anteriormente mencioné, aún sigo cursando en Coderhouse (me faltan dos cursos para completar la carrera de full-stack), por tanto, mis habilidades van a seguir creciendo, tanto en el front-end, como en el back-end. <br>Sin nada más que decir, muchas gracias por haberme leído, espero sigas disfrutando mi portafolio.</p>
 </div>`
 let misProyectos=`<div class="main-proyectos">
 <h4>MIS <SPAN>PROYECTOS</SPAN></h4>
