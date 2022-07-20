@@ -2,18 +2,26 @@ const inyectar= document.querySelector(`.inyeccion`) //lugar a inyectar codigo
 let seccionActual;
 //Mostrar inicio 
 const mostrarInicio=()=> {
-    // inyectar.innerHTML=""
-    // inyectar.innerHTML= inicio
+    inyectar.innerHTML=""
+    inyectar.innerHTML= inicio
 }
 mostrarInicio()
 //Secciones
 const sobreMi=() => {
-    // inyectar.innerHTML=""
-    // inyectar.innerHTML= miInformacion
+    inyectar.innerHTML=""
+    inyectar.innerHTML= miInformacion
 }
 const proyectos=() => {
-    // inyectar.innerHTML=""
-    // inyectar.innerHTML= misProyectos
+    inyectar.innerHTML=""
+    inyectar.innerHTML= misProyectos
+}
+const curriculum=() => {
+    inyectar.innerHTML=""
+    inyectar.innerHTML= miCurriculum
+}
+const contacto=() => {
+    inyectar.innerHTML=""
+    inyectar.innerHTML= contactame
 }
 //Cambiar tema al ingresar
 let cambiarTemaIngreso = () => {
@@ -97,4 +105,22 @@ botones[1].addEventListener(`click`,()=> {
 })
 botones[2].addEventListener(`click`,()=> {
     proyectos()
+})
+botones[3].addEventListener(`click`,()=> {
+    curriculum()
+})
+botones[4].addEventListener(`click`,()=> {
+    contacto()
+})
+
+//inicio activar animacion
+let imagenAnimacion=document.querySelector(`.imagenAnimar`)
+
+imagenAnimacion.addEventListener(`mouseover`,()=> {
+    let triangulo=document.querySelector(`.triangulo`)
+    triangulo.classList.toggle(`transformar`)
+})
+imagenAnimacion.addEventListener(`mouseout`,()=> {
+    let triangulo=document.querySelector(`.triangulo`)
+    triangulo.classList.toggle(`transformar`)
 })
