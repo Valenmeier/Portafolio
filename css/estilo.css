@@ -116,6 +116,16 @@
     background-color: #330e0f;
     color: #E10818;
 }
+/*Barra de navegacion*/
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--secundario);
+}
+body::-webkit-scrollbar-thumb {
+    background: var(--retoques);
+    border-radius: 8px;
+  
+}
 /* header y boton de temas */
 .superior {
     position:fixed;
