@@ -4,6 +4,16 @@ let seccionActual;
 const mostrarInicio=()=> {
     inyectar.innerHTML=""
     inyectar.innerHTML= inicio
+    let imagenAnimacion=document.querySelector(`.imagenAnimar`)
+
+imagenAnimacion.addEventListener(`mouseover`,()=> {
+    let triangulo=document.querySelector(`.triangulo`)
+    triangulo.classList.toggle(`transformar`)
+})
+imagenAnimacion.addEventListener(`mouseout`,()=> {
+    let triangulo=document.querySelector(`.triangulo`)
+    triangulo.classList.toggle(`transformar`)
+})
 }
 mostrarInicio()
 //Secciones
@@ -114,13 +124,4 @@ botones[4].addEventListener(`click`,()=> {
 })
 
 //inicio activar animacion
-let imagenAnimacion=document.querySelector(`.imagenAnimar`)
 
-imagenAnimacion.addEventListener(`mouseover`,()=> {
-    let triangulo=document.querySelector(`.triangulo`)
-    triangulo.classList.toggle(`transformar`)
-})
-imagenAnimacion.addEventListener(`mouseout`,()=> {
-    let triangulo=document.querySelector(`.triangulo`)
-    triangulo.classList.toggle(`transformar`)
-})
