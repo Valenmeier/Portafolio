@@ -30,7 +30,6 @@ const proyectos=() => {
     
 }
 const curriculum=() => {
-    debugger
     inyectar.innerHTML=""
     window.scrollTo(0,0)
     inyectar.innerHTML= miCurriculum
