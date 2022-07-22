@@ -427,7 +427,7 @@ transform: scale(0);
     position: absolute;
     background-color: var(--secundario);
     z-index: -500;
-    padding: 13.5vw;
+    padding: 13vw;
     text-align: left;
     color: var(--principal);
     display: flex;
