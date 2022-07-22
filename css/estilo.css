@@ -95,6 +95,7 @@
     margin-bottom: 5vw;
     color: var(--principal);
     cursor: pointer;
+    height: 10vh;
 }
 .Claro {
     background-color: #FAF8D4;
@@ -427,20 +428,22 @@ transform: scale(0);
     position: absolute;
     background-color: var(--secundario);
     z-index: -500;
-    padding: 13vw;
+    padding: 13.5vw;
     text-align: left;
     color: var(--principal);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100%;
+
 }
 .main-contactame h4 {
     color: var(--principal);
     font-size: 8vw;
     text-shadow: 0px 0px 10px var(--retoques);
     text-align: center;
+    overflow: hidden;
 }
 .main-contactame h4 span {
     color: var(--retoques);
@@ -454,12 +457,14 @@ transform: scale(0);
     align-items: center;
     color: var(--principal);
     flex-direction: column;
+    
 }
 .redesSociales a {
     font-size: 3vw;
     text-decoration: none;
     gap: 2vw;
     color: var(--retoques);
+    overflow-y: hidden;
 }
 .redesSociales a div {
     display: flex;
