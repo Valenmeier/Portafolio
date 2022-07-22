@@ -90,16 +90,16 @@ let miCurriculum= `<div class="main-curriculum">
 let contactame= `<div class="main-contactame">
 <h4>No olvides <span>contactarme :D</span></h4>
 <div class="redesSociales">
-    <a href="https://www.linkedin.com/in/valentinmeier/" target="_blank">
-        <div class="redSocial">
-            <i class="fa-brands fa-linkedin"></i>
-        <h4>Linkedin</h4>
-        </div>
-    </a>
     <a href="https://api.whatsapp.com/send?phone=5493541211401&text=Hola Valentin, quiero comunicarme con vos, respondeme cuando puedas ^-^" target="_blank">
         <div class="redSocial">
             <i class="fa-brands fa-whatsapp"></i>
         <h4>Whatsapp</h4>
+        </div>
+    </a>
+    <a href="https://www.linkedin.com/in/valentinmeier/" target="_blank">
+        <div class="redSocial">
+            <i class="fa-brands fa-linkedin"></i>
+        <h4>Linkedin</h4>
         </div>
     </a>
     <a href="https://www.instagram.com/valenmeier/" target="_blank">
