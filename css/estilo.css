@@ -163,6 +163,7 @@ body::-webkit-scrollbar-thumb {
     padding: 13.5vw;
     text-align: left;
     color: var(--principal);
+    min-height: 100%;
 }
 .main-inicio span{
     color: var(--retoques);
@@ -520,7 +521,7 @@ transform: scale(0);
    }
    .introduccion {
     margin-top: 4vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
    }
    .imagen-inicio {
     margin: 0;
