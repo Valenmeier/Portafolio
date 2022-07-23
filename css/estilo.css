@@ -181,13 +181,13 @@ body::-webkit-scrollbar-thumb {
 .triangulo {
     display: none;
 }
-.imagenAnimar{
+.imagen-inicio img{
     width: 50vw;
     height: auto;
     filter: grayscale(100%);
     transition: all 1s;
 }
-.imagenAnimar img:hover{
+.imagen-inicio img:hover{
     filter: grayscale(0);
 }
 /*footer*/
@@ -529,8 +529,9 @@ transform: scale(0);
    .imagen-inicio {
     margin: 0;
    }
-   .imagenAnimar{
+   .imagen-inicio img{
     width: 30vw;
+    height: auto;
     position: relative;
     z-index: 3;
    }
