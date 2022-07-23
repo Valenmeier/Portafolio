@@ -41,7 +41,7 @@ const contacto=() => {
 }
 //Cambiar tema al ingresar
 let cambiarTemaIngreso = () => {
-    let cambiarTema=JSON.parse(localStorage.getItem(`tema`)) || `light`
+    let cambiarTema=JSON.parse(localStorage.getItem(`tema`)) || `dark`
     let body= document.querySelector(`.eleccion`)
     body.classList.add(cambiarTema)
 }
@@ -74,7 +74,7 @@ let cambiarTemas= ()=> {
     let temaClaro=document.querySelector(`.Claro`)
     let temaOscuro=document.querySelector(`.Oscuro`)
     let temaMounstruo=document.querySelector(`.Monstruo`)
-    let temaDivino=document.querySelector(`.Divino`)
+    let temaDivino=document.querySelector(`.Natural`)
     let temaDracula=document.querySelector(`.Dracula`)
     let cambiadorDeTemas= (tema,nombreDeReemplazo)=> {
         tema.addEventListener(`click`,()=> {
@@ -87,7 +87,7 @@ let cambiarTemas= ()=> {
     cambiadorDeTemas(temaClaro,`light`)
     cambiadorDeTemas(temaOscuro,`dark`)
     cambiadorDeTemas(temaMounstruo,`monster`)
-    cambiadorDeTemas(temaDivino,`divinity`)
+    cambiadorDeTemas(temaDivino,`natural`)
     cambiadorDeTemas(temaDracula,`dracula`)
 }
 cambiarTemas()

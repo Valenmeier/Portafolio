@@ -6,11 +6,11 @@
 }
 /* temas */
 .light {
-    --principal:#000;
-    --secundario:#FAF8D4;
+    --principal:#211DE2;
+    --secundario:#F5EDDC;
     --barraInferior:rgba(0,0,0,.5);
     --iconos:#fcfcfc;
-    --retoques:#ff99d6;
+    --retoques:#FF0063;
     font-family: 'Poppins', sans-serif;
 }
 .dark {
@@ -29,12 +29,12 @@
     --retoques:#00f821;
     font-family: 'Poppins', sans-serif;
 }
-.divinity {
-    --principal:rgb(251, 255, 8);
-    --secundario:#694faf;
+.natural {
+    --principal:#fffbec;
+    --secundario:#004737;
     --barraInferior:rgba(82, 85, 83, 0.8);
     --iconos:#504f2c;
-    --retoques:#00b1f7;
+    --retoques:#56f09f;
     font-family: 'Poppins', sans-serif;
 }
 .dracula {
@@ -99,7 +99,7 @@
 }
 .Claro {
     background-color: #FAF8D4;
-    color: #000;
+    color: #211DE2;
 }
 .Oscuro {
     background-color: #1c0486;
@@ -109,9 +109,9 @@
     background-color: #000;
     color: rgb(65, 226, 43);
 }
-.Divino {
-    background-color: rgb(138, 113, 61);
-    color: rgb(238, 255, 139);
+.Natural {
+    background-color: #004737;
+    color: #fffbec;
 }
 .Dracula {
     background-color: #330e0f;
@@ -232,7 +232,6 @@ body::-webkit-scrollbar-thumb {
 .main-sobreMi h4 {
     color: var(--principal);
     font-size: 10vw;
-    text-shadow: 0px 0px 10px var(--retoques);
     text-align: center;
 }
 .main-sobreMi h4 span {
@@ -296,7 +295,6 @@ body::-webkit-scrollbar-thumb {
 .main-proyectos h4 {
     color: var(--principal);
     font-size: 8vw;
-    text-shadow: 0px 0px 10px var(--retoques);
     text-align: center;
 }
 .main-proyectos h4 span {
@@ -399,7 +397,6 @@ transform: scale(0);
 .main-curriculum h4 {
     color: var(--principal);
     font-size: 8vw;
-    text-shadow: 0px 0px 10px var(--retoques);
     text-align: center;
 }
 .main-curriculum h4 span {
@@ -442,7 +439,6 @@ transform: scale(0);
 .main-contactame h4 {
     color: var(--principal);
     font-size: 8vw;
-    text-shadow: 0px 0px 10px var(--retoques);
     text-align: center;
     overflow: hidden;
 }
