@@ -183,7 +183,7 @@ body::-webkit-scrollbar-thumb {
 }
 .imagen-inicio img{
     width: 50vw;
-    height: auto;
+    height: 66.806vw;
     filter: grayscale(100%);
     transition: all 1s;
 }
@@ -531,7 +531,7 @@ transform: scale(0);
    }
    .imagen-inicio img{
     width: 30vw;
-    height: auto;
+    height: 39.16vw;
     position: relative;
     z-index: 3;
    }

@@ -14,7 +14,6 @@ imagenAnimacion.addEventListener(`mouseout`,()=> {
     let triangulo=document.querySelector(`.triangulo`)
     triangulo.classList.toggle(`transformar`)
 })
-console.clear()
 }
 mostrarInicio()
 //Secciones
