@@ -10,7 +10,7 @@ let inicio = `
     </div>
         <div class="imagen-inicio">
             <div class=triangulo></div>
-            <img src="./multimedia/Portafolio.jpeg" class="imagenAnimar" alt="Valentin Meier">
+            <img src="./multimedia/Portafolio.webp" class="imagenAnimar" alt="Valentin Meier">
         </div>
 </div>
 `
@@ -22,7 +22,7 @@ let miInformacion= `<div class="main-sobreMi">
     <a href="#habilidades"><h6>habilidades</h6></a>
 </div>
 <p>Nací el 14/01/2003 en Córdoba-Argentina. Desde muy chiquito desarrollé el amor por la tecnología... en ese tiempo me gustaba editar videos y corromper mis jueguitos para sacar beneficios. Con el paso del tiempo fui creciendo y encontrando otras cosas que llamaban mi atención (la economía y los deportes)... pero nada me hacía sentir tan bien como cuando utilizaba la máquina y aprendía cosas nuevas, cosas únicas.<br> En estos últimos años, luego de haber finalizado la secundaria, entré en un lapso del no saber qué hacer, empecé estudiando economía, pero luego me arrepentí, no me sentía tan cómodo. Por tanto, quise buscar trabajo, pensando que así podría ser más feliz, lo conseguí (ingresé a Arcos Dorados) y la verdad que tenía razón, al principio costó muchísimo, tenía muchos compañeros (200 aproximadamente) y me sentía bastante perdido. Pero eso me motivó a aprender, cometí muchos errores (algunos más de una vez), tenía compañeros que se burlaban por esos fallos, sinceramente me sentía mal cuando me trataban así, pero siempre tomaba su burla con una sonrisa y seguía, nunca les falté el respeto a ellos. Gracias a mi esfuerzo y buen trato logré conseguir uno de mis mayores logros, el diploma de empleado del mes. </p>
-<img src="./multimedia/diploma.jpeg" alt="diploma empleado del mes" title="mi diploma" class="diploma">
+<img src="./multimedia/diploma.webp" alt="diploma empleado del mes" title="mi diploma" class="diploma">
 <p>Luego de eso decidí renunciar para poder seguir aprendiendo más cosas (siempre recordando todos los momentos y experiencias que pasé en aquel lugar), me anoté a Coderhouse, donde actualmente estoy cursando y conseguí completar 2 cursos (desarrollo web y javascript) en esos cursos desarrollé las siguientes herramientas:</p><br>
 
 <div class="herramientas" id="habilidades">
@@ -41,7 +41,7 @@ let misProyectos=`<div class="main-proyectos">
 <h4>MIS <SPAN>PROYECTOS</SPAN></h4>
 <div class="proyectosMios">
     <div class="toman">
-        <img src="./multimedia/toman.jpeg" class="imagenModal" alt="tomanProyect">
+        <img src="./multimedia/toman.webp" class="imagenModal" alt="tomanProyect">
         <div class="modalProyectos">
             <h5>Página web de Tokyo Revenger</h5>
             <div class="redes">
@@ -51,7 +51,7 @@ let misProyectos=`<div class="main-proyectos">
         </div>
     </div>
     <div class="ecommerce">
-        <img src="./multimedia/carsito.jpeg" class="imagenModal" alt="ecommerceProyect">
+        <img src="./multimedia/carsito.webp" class="imagenModal" alt="ecommerceProyect">
         <div class="modalProyectos">
             <h5>Ecommerce Pc</h5>
             <div class="redes">
@@ -61,7 +61,7 @@ let misProyectos=`<div class="main-proyectos">
         </div>
     </div>
     <div class="corazon">
-        <img src="./multimedia/corazón.jpeg" class="imagenModal" alt="corazon">
+        <img src="./multimedia/corazón.webp" class="imagenModal" alt="corazon">
         <div class="modalProyectos">
             <h5>Corazón</h5>
             <div class="redes">
@@ -71,7 +71,7 @@ let misProyectos=`<div class="main-proyectos">
         </div>
     </div>
     <div class="reloj">
-        <img src="./multimedia/Reloj.jpeg" class="imagenModal" alt="reloj">
+        <img src="./multimedia/Reloj.webp" class="imagenModal" alt="reloj">
         <div class="modalProyectos">
             <h5>Reloj</h5>
             <div class="redes">
@@ -84,8 +84,8 @@ let misProyectos=`<div class="main-proyectos">
 </div>`
 let miCurriculum= `<div class="main-curriculum">
 <h4>MI <SPAN>CURRICULUM</SPAN></h4>
-<img src="./multimedia/Cv Valentin Meier.png" alt="Curriculum">
-<a href="./multimedia/Cv Valentin Meier.png" download="Cv Valentin Meier">Descargar Curriculum</a>
+<img src="./multimedia/Cv Valentin Meier.webp" alt="Curriculum">
+<a href="./multimedia/Cv Valentin Meier.webp" download="Cv Valentin Meier">Descargar Curriculum</a>
 </div>`
 let contactame= `<div class="main-contactame">
 <h4>No olvides <span>contactarme :D</span></h4>
