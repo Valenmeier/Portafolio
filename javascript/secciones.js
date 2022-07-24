@@ -102,11 +102,11 @@ let contactame= `<div class="main-contactame">
         <h4>Linkedin</h4>
         </div>
     </a>
-    <a href="https://www.instagram.com/valenmeier/" target="_blank">
-        <div class="redSocial">
-            <i class="fa-brands fa-instagram"></i>
-        <h4>Instagram</h4>
-        </div>
+    <a href="https://github.com/Valenmeier" target="_blank">
+    <div class="redSocial">
+        <i class="fa-brands fa-github"></i>
+    <h4>Github</h4>
+    </div>
     </a>
     <a href="mailto:valentinmeier123@gmail.com" target="_blank">
         <div class="redSocial">
