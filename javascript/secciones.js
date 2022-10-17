@@ -23,7 +23,7 @@ let miInformacion= `<div class="main-sobreMi">
 </div>
 <p>Nací el 14/01/2003 en Córdoba-Argentina. Desde muy chiquito desarrollé el amor por la tecnología... en ese tiempo me gustaba editar videos y corromper mis jueguitos para sacar beneficios. Con el paso del tiempo fui creciendo y encontrando otras cosas que llamaban mi atención (la economía y los deportes)... pero nada me hacía sentir tan bien como cuando utilizaba la máquina y aprendía cosas nuevas, cosas únicas.<br> En estos últimos años, luego de haber finalizado la secundaria, entré en un lapso del no saber qué hacer, empecé estudiando economía, pero luego me arrepentí, no me sentía tan cómodo. Por tanto, quise buscar trabajo, pensando que así podría ser más feliz, lo conseguí (ingresé a Arcos Dorados) y la verdad que tenía razón, al principio costó muchísimo, tenía muchos compañeros (200 aproximadamente) y me sentía bastante perdido. Pero eso me motivó a aprender, cometí muchos errores (algunos más de una vez), tenía compañeros que se burlaban por esos fallos, sinceramente me sentía mal cuando me trataban así, pero siempre tomaba su burla con una sonrisa y seguía, nunca les falté el respeto a ellos. Gracias a mi esfuerzo y buen trato logré conseguir uno de mis mayores logros, el diploma de empleado del mes. </p>
 <img src="./multimedia/diploma.webp" alt="diploma empleado del mes" title="mi diploma" class="diploma">
-<p>Luego de eso decidí renunciar para poder seguir aprendiendo más cosas (siempre recordando todos los momentos y experiencias que pasé en aquel lugar), me anoté a Coderhouse, donde actualmente estoy cursando y conseguí completar 2 cursos (desarrollo web y javascript) en esos cursos desarrollé las siguientes herramientas:</p><br>
+<p>Luego de eso decidí renunciar para poder seguir aprendiendo más cosas (siempre recordando todos los momentos y experiencias que pasé en aquel lugar), me anoté a Coderhouse, donde actualmente estoy cursando y conseguí completar 3 cursos (desarrollo web, JavaScript y React.js) en esos cursos desarrollé las siguientes herramientas:</p><br>
 
 <div class="herramientas" id="habilidades">
     <i class="fa-brands fa-html5"></i>
@@ -33,6 +33,7 @@ let miInformacion= `<div class="main-sobreMi">
     <i class="fa-brands fa-github"></i>
     <i class="fa-brands fa-bootstrap"></i>
     <i class="fa-brands fa-sass"></i>
+    <i class="fa-brands fa-react"></i>
 </div><br>
 
 <p class="parrafoFinal">Como anteriormente mencioné, aún sigo cursando en Coderhouse (me faltan dos cursos para completar la carrera de full-stack), por tanto, mis habilidades van a seguir creciendo, tanto en el front-end, como en el back-end. <br>Sin nada más que decir, muchas gracias por haberme leído, espero sigas disfrutando mi portafolio.</p>
@@ -47,6 +48,16 @@ let misProyectos=`<div class="main-proyectos">
             <div class="redes">
                 <div class="git-repositorio"><a href="https://github.com/Valenmeier/Toman.es" target="_blank"><i class="fa-brands fa-github"></i></a></div>
                 <div class="git-page"><a href="https://valenmeier.github.io/Toman.es/" target="_blank"><i class="fa-solid fa-globe"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="JuegosGratis">
+        <img src="./multimedia/Juegosgratis.jpeg" class="imagenModal" alt="juegosgratis">
+        <div class="modalProyectos">
+            <h5>JuegosGratis pc</h5>
+            <div class="redes">
+                <div class="git-repositorio"><a href="https://github.com/Valenmeier/JuegosGratis" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                <div class="git-page"><a href="https://juegos-gratis-valenmeier.vercel.app/" target="_blank"><i class="fa-solid fa-globe"></i></a></div>
             </div>
         </div>
     </div>
@@ -80,6 +91,7 @@ let misProyectos=`<div class="main-proyectos">
             </div>
         </div>
     </div>
+    
 </div>
 </div>`
 let miCurriculum= `<div class="main-curriculum">
