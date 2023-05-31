@@ -34,6 +34,8 @@ let miInformacion= `<div class="main-sobreMi">
     <i class="fa-brands fa-bootstrap"></i>
     <i class="fa-brands fa-sass"></i>
     <i class="fa-brands fa-react"></i>
+    <i class="fa-brands fa-node"></i>
+    
 </div><br>
 
 <p class="parrafoFinal">Como anteriormente mencioné, aún sigo cursando en Coderhouse (me faltan dos cursos para completar la carrera de full-stack), por tanto, mis habilidades van a seguir creciendo, tanto en el front-end, como en el back-end. <br>Sin nada más que decir, muchas gracias por haberme leído, espero sigas disfrutando mi portafolio.</p>
@@ -57,7 +59,7 @@ let misProyectos=`<div class="main-proyectos">
             <h5>JuegosGratis pc</h5>
             <div class="redes">
                 <div class="git-repositorio"><a href="https://github.com/Valenmeier/JuegosGratis" target="_blank"><i class="fa-brands fa-github"></i></a></div>
-                <div class="git-page"><a href="https://juegos-gratis-valenmeier.vercel.app/" target="_blank"><i class="fa-solid fa-globe"></i></a></div>
+                <div class="git-page"><a href="https://drive.google.com/file/d/1y5P-frm226025TiYwBFkit04FECsWaef/view" target="_blank"><i class="fa-solid fa-globe"></i></a></div>
             </div>
         </div>
     </div>
@@ -68,6 +70,16 @@ let misProyectos=`<div class="main-proyectos">
             <div class="redes">
                 <div class="git-repositorio"><a href="https://github.com/Valenmeier/Carsito" target="_blank"><i class="fa-brands fa-github"></i></a></div>
                 <div class="git-page"><a href="https://valenmeier.github.io/Carsito/" target="_blank"><i class="fa-solid fa-globe"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="ecommerce">
+        <img src="./multimedia/Meiercommerce imagen.jpeg" class="imagenModal" alt="ecommerceProyect">
+        <div class="modalProyectos">
+            <h5>Backend MeierCommerce</h5>
+            <div class="redes">
+                <div class="git-repositorio"><a href="https://github.com/Valenmeier/backendCoder-final" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                <div class="git-page"><a href="https://meiercommerceeee.vercel.app/" target="_blank"><i class="fa-solid fa-globe"></i></a></div>
             </div>
         </div>
     </div>

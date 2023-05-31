@@ -252,6 +252,8 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     gap: 2vw;
     font-size: 9vw;
+    width: 70vw;
+    flex-wrap: wrap;
 }
 .parrafoFinal {
     margin-bottom: 15vw;
@@ -321,6 +323,7 @@ body::-webkit-scrollbar-thumb {
 }
 .proyectosMios>div>img {
     width: 80vw;
+    height: 100%;
     object-fit: cover;
     object-position: bottom;
 }
