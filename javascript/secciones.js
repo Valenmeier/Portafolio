@@ -4,7 +4,7 @@ let inicio = `
     <div>
         <h1>Hola mundo!<br>
         Yo soy <span>Valentin Meier</span><br>
-    <span>{</span>Desarrollador Front-end<span>}</span></h1> 
+    <span>{</span>Desarrollador FullStack<span>}</span></h1> 
         <h2><span>Sean bienvenidos a mi portafolio...</span></h2>
         <p class="introduccion">Antes de comenzar, les voy a contar un poco sobre mí... vivo en Villa Carlos Paz-Argentina.<br> Soy una persona <span><b>social</b></span> a la que le encanta <span><b>aprender</b></span> cosas nuevas, disfruta <span><b>crear</b></span> y <span><b>enseñar</b></span> lo aprendido.<br> <span><b>¡Espero disfruten de mi sitio!.</b></span></p>
     </div>
